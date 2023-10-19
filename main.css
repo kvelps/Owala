@@ -1,0 +1,201 @@
+
+@font-face {
+    font-family: 'Titan One';
+    src: url(Titan_One/TitanOne-Regular.ttf);
+  }
+  
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Titan One';
+}
+
+p {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Titan One';
+}
+
+div {
+    text-align: center;
+}
+
+
+/*HEADER*/
+
+.header {
+    padding: 80px;
+    border-bottom: 30px;
+    text-align: center;
+    background: white;
+    color: black;
+  }
+
+/*DROP DOWN MENU*/
+
+.dropbtn {
+    background-color: white;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: left;
+    text-align: left;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Titan One';
+  }
+  
+  .dropdown-content a:hover {background-color: white;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: white;}
+
+* {
+    box-sizing: border-box;
+  }
+
+/*IMAGE GALLERY*/
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2 2px;
+    align-items: center;
+  }
+  .column {
+    flex: 100%;
+    padding: 2 2px;
+    align-items: center;
+  }
+  
+  .column img {
+    margin-top: 2px;
+    align-items: center;
+  }
+  
+.main {
+    flex: 70%;
+    background-color: white; 
+    padding: 10px;
+    align-items: center;
+  }
+
+  body, html {
+    height: 100%;
+}
+
+/*MAIN IMAGE BOX HOME PAGE*/
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(owala\ blue\ bottle.webp); 
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Titan One'; 
+  font-size: 50px;
+}
+
+/*MAIN IMAGE BOX DRINKWEAR PAGE*/
+
+.hero-image2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Owala\ all\ bottles.png); 
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text2 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Titan One'; 
+    font-size: 50px;
+  }
+
+/*MAIN IMAGE BOX BEST SELLERS PAGE*/ 
+
+  .hero-image3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(owala\ best\ sellers.jpg); 
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text3 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Titan One'; 
+    font-size: 50px;
+  }
+
+/*BUTTON FOR BEST SELLERS BACK TO DRINKWEAR PAGE*/ 
+
+.button {
+    border: none;
+    color: white;
+    padding: 30px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Titan One';
+    margin: 4px 4px;
+    cursor: pointer;
+    background: #3a08ad;
+    width: 50%;
+  }
+
+/*FOOTER*/
+
+.footer {
+    padding: 50px; 
+    text-align: center;
+    background: #3a08ad;
+    color: white;
+    font-family: 'Titan One';
+    font-size: 20px;
+  }
